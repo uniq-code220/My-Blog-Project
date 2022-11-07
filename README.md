@@ -1,3 +1,4 @@
 # My-Blog-Project
-I am interested in Web Development and Design.
-This is my first project and still trying to figure out how codes work for HTML and CSS.
+
+My first Personal Blog Project. 
+The site shows information about nature and how things around could be so amazing and extraordinary.
