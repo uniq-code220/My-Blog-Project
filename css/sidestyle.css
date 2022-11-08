@@ -1,6 +1,7 @@
 /*sidebar */
 /*sidestyle.css */
 
+
 .authorcontain {
 
     display: flex;
@@ -91,4 +92,6 @@
  
  #onepost {
     order: 1;}
+ 
+
  

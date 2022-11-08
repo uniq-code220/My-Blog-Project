@@ -1,0 +1,111 @@
+/* main css */
+/*myBlog.css */
+
+
+@import url(contentcss.css);
+@import url(sidestyle.css);
+@import url(socialStyle.css);
+
+
+  body{
+    background-color: rgb(214, 200, 200);
+    color: #323132;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    
+   
+}
+@media(min-width: 800px)  {
+   
+
+.container{
+    display:grid;
+    grid-template-columns: 30px px;
+    grid-template-rows: 400px  600px;
+    grid-template-areas:
+    "hd hd hd hd hd hd hd hd"
+    "main main main main main sd sd sd"
+    "ft ft ft ft ft ft ft ft";
+    border: 2px solid rgb(249, 249, 244);
+    text-decoration: none;
+
+}
+.box{
+     border: 1px solid rgb(237, 233, 233);
+     background: #f8f8f6;
+     padding: 5px;
+    
+     
+}
+.header{
+    grid-area: hd;
+    background-image: url("images/nature1.jfif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+
+ }
+
+ .topnav ul li{
+    float: left;
+    display: block;
+    padding: 10px 10px;
+    margin-top: 155px;
+    color: #0b080b;
+       
+ }
+
+ .topnav a{
+    text-decoration: none;
+ }
+
+ .topnav a:visited{
+    color: #434243; 
+ }
+
+ .topnav a:link{
+    color: #434243;
+ }
+    .topnav a:hover{
+        color: rgb(202, 11, 173);
+  }
+  
+  .content{
+   grid-area: main;
+   max-width: 100%;
+    height: auto;
+
+}
+
+.sidebar{
+   grid-area:sd;
+  
+
+}
+.button {
+  background-color: none; 
+  border: 1px solid  rgb(158, 156, 156);
+  border-radius: 10%;
+  color: rgb(48, 46, 46);
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-right: 8px;
+  padding-left: 8px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 10px;
+  width: 105px;
+  
+}
+
+
+.footer{
+   font-size: medium;
+   grid-area:ft;
+  
+
+}
+
+
+}
