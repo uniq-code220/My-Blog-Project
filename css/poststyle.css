@@ -1,0 +1,191 @@
+/* poststyle.css */
+
+body{
+   background-color: rgb(239, 226, 226);
+    color: #323132;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    width: 100%;
+    height: auto;
+    
+
+}
+@media(min-width: 800px) {
+
+.container{
+    display:grid;
+    grid-template-columns: 30px px;
+    grid-template-rows: 400px  600px;
+    grid-template-areas:
+    "hd hd hd hd hd hd hd hd"
+    "main main main main main sd sd sd"
+    "ft ft ft ft ft ft ft ft";
+    border: 2px solid rgb(249, 249, 244);
+    width: 100%;
+
+}
+.box{
+     border: 1px solid rgb(237, 233, 233);
+     background: #f8f8f6;
+     padding: 5px;
+    
+     
+}
+.header{
+    grid-area: hd;
+    background-image: url("images/nature1.jfif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+       
+
+ }
+
+ .topnav ul li{
+    float: left;
+    display: block;
+    padding: 10px 10px;
+    margin-top: 155px;
+    color: #0b080b;
+       
+ }
+
+ .topnav a{
+    text-decoration: none;
+ }
+
+ .topnav a:visited{
+    color: #434243; 
+ }
+
+ .topnav a:link{
+    color: #434243;
+ }
+    .topnav a:hover{
+        color: rgb(202, 11, 173);
+  }
+  
+  .content{
+   grid-area: main;
+   width: 100%;
+
+}
+.allpost {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    
+ }
+
+
+    .postbox {
+
+        width: 500px;
+        height: 200px;
+        padding: 5px;
+        margin-top: 50px;
+        border: 1px solid rgb(175, 173, 173);
+       
+       
+     }
+     #onepost {
+        margin-top: 20px;
+        background-image: url("images/acacia.png");
+        background-size: cover;
+        background-repeat: no repeat;
+        
+
+     }
+          
+     #onepost p{
+        
+        margin-top: 210px;
+        height: 100px;
+        width: 500px;
+        text-align: justify;
+        font-size: medium;
+     }
+    #twopost{
+        background-image: url("images/penguin.png");
+        background-size: cover;
+        background-repeat: no repeat;
+        
+    }
+     #twopost p{
+        
+        margin-top: 210px;
+        height: 100px;
+        width: 500px;
+        text-align: justify;
+        font-size: medium;  
+     }
+     
+     #onepost {
+        order: 1;}
+
+     #twopost {
+         order: 2;}
+       
+   
+.sidebar{
+   grid-area: sd;
+   width: 100%;
+  
+}
+.sidepost {
+   width: 600px; 
+   height: 300px; 
+   padding: 5px;
+   border-bottom: 1px solid rgb(230, 227, 227);
+}
+#onepart p blockquote {
+   font-size: 12px;
+
+}
+.sidepost blockquote {
+   text-align: justify;
+   
+}
+
+#twopart p {
+   font-size: 18px;
+   text-align: justify;
+
+}
+/*#onepart {
+   order: 1;
+}
+
+#twopart {
+   order: 2;*/
+}
+
+figure {
+   float: left;
+   width: 280px;
+   height: 250px;
+   text-align: center;
+   font-style: italic;
+   font-size: 12px;
+   border: thin rgb(212, 211, 211) solid;
+   padding: 0.5em;
+   
+ }
+
+
+ img.adjusted {
+   width: 100%;
+   
+ }
+
+.footer{
+   font-size: medium;
+   color:#787678;
+   grid-area:ft;
+   width: 100%;
+  
+
+}
+
+}
